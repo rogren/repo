@@ -1,0 +1,63 @@
+/* Estilos para el título y duración de la experiencia */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Estilo de la lista de detalles */
+  section ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Imagen de experiencia con contenedor */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .experience-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Botón de volver */
+  button {
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

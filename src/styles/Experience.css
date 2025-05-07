@@ -1,0 +1,32 @@
+  /* Estilo para los elementos de experiencia laboral */
+  .experience-list li {
+    margin-bottom: 20px;
+    border: 2px solid #2ecc71;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: #f8f8f8;
+    list-style: none;
+  }
+  
+  .experience-list li:hover {
+    transform: scale(1.02);
+    background-color: #e8fce8;
+  }
+  
+  .experience-list li a {
+    display: block;
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  
+  .experience-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .experience-list p {
+    margin-bottom: 5px;
+  }
+  
+  
